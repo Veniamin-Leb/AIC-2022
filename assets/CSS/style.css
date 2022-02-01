@@ -1,0 +1,319 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #1E3A60;
+}
+
+button {
+  width: 293px;
+  height: 44px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.216px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  background: #35A2E6;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+  transition: all linear .3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #88c6ec;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 25px 20px;
+  margin-bottom: 100px;
+  background: #fff;
+}
+
+header .header__logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header__logo .logo__label {
+  width: 60%;
+  display: flex;
+}
+
+header .header__logo .logo__label img {
+  width: 55px;
+  margin-top: 0px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+header .header__logo .logo__label p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.216px;
+  color: #1E3A60;
+  margin: 0;
+  padding-right: 20px;
+}
+
+header .header__logo .logo__label .ais24 {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.216px;
+  text-transform: uppercase;
+  color: #1E3A60;
+  padding-left: 20px;
+  border-left: 2px solid #95BBE0;
+}
+
+header .header__logo .logo__label .ais24 a {
+  width: 100%;
+  text-decoration: none;
+  letter-spacing: -1px;
+  color: #1E3A60;
+  font-weight: 700;
+}
+
+header .header__logo .logo__label .ais24 a span {
+  color: #95BBE0;
+}
+
+header .header__logo .logo__phone {
+  display: flex;
+}
+
+header .header__logo .logo__phone p {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 25px;
+  text-align: right;
+  letter-spacing: 0.216px;
+  color: #1E3A60;
+  padding: 0;
+  margin: auto 0;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #E5EDF3;
+}
+
+.content h1 {
+  width: 50%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.216px;
+  color: #020113;
+  margin: 0 auto;
+  margin-top: -20px;
+  background: #fff;
+}
+
+.content h1 span {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.216px;
+  color: #35A2E6;
+}
+
+.content h2 {
+  width: 35%;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.216px;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: -15px;
+  background: #fff;
+}
+
+.content p {
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.216px;
+  color: #000000;
+}
+
+.content .content__input {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .content__input textarea {
+  width: 586px;
+  height: 113px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border: 1px solid #D4DEE7;
+  border-radius: 2px;
+  padding-left: 8px;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.216px;
+  color: #D4DFE7;
+}
+
+.content .content__input textarea:focus {
+  border: 1px solid #95bfe4;
+  outline: none;
+}
+
+.content .content__input a {
+  width: 100%;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 28px;
+  letter-spacing: 0.216px;
+  text-decoration-line: underline;
+  color: #7D7D7D;
+}
+
+.content .content__input form {
+  width: 586px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.content .content__input form b {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #5E6875;
+  padding: 0;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.content .content__input form button {
+  margin: 0;
+}
+
+.content .content__input input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #D4DEE7;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.216px;
+  color: #020113;
+}
+
+.content .content__input input:focus {
+  border: 1px solid #95bfe4;
+  outline: none;
+}
+
+.content .content__input label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5E6875;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+.content .input__links {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.content .input__checkbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 40px;
+}
+
+.content .input__checkbox input {
+  margin: 0;
+  width: 26px;
+  height: 26px;
+  padding: 8px;
+}
+
+.content .input__checkbox p {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  color: #7D7D7D;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.content .input__checkbox .checkbox__check {
+  display: flex;
+}
+
+.content .input__checkbox .checkbox__file {
+  max-width: 110px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content .input__checkbox .checkbox__file img {
+  width: 45px;
+  height: 55px;
+  margin-left: 25px;
+  flex-shrink: 0;
+}
+
+.content .input__checkbox .checkbox__file a {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  color: #35A2E7;
+  padding-top: 10px;
+}
