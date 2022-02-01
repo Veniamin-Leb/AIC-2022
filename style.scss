@@ -33,6 +33,7 @@ button:hover{
     cursor: pointer;
     background: #88c6ec;
 }
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +202,16 @@ header{
 
             letter-spacing: 0.216px;
 
+            color: #D4DFE7;
+        }
+        textarea::placeholder{
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+
+            letter-spacing: 0.216px;
+            
             color: #D4DFE7;
         }
         textarea:focus{

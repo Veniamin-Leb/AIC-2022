@@ -193,6 +193,15 @@ header .header__logo .logo__phone p {
   color: #D4DFE7;
 }
 
+.content .content__input textarea::placeholder {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.216px;
+  color: #D4DFE7;
+}
+
 .content .content__input textarea:focus {
   border: 1px solid #95bfe4;
   outline: none;
