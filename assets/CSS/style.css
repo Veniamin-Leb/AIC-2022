@@ -130,7 +130,7 @@ header .header__logo .logo__phone p {
   font-size: 32px;
   line-height: 44px;
   letter-spacing: 0.216px;
-  color: #020113;
+  color: #1E3A60;
   margin: 0 auto;
   margin-top: -20px;
   background: #fff;
@@ -151,7 +151,7 @@ header .header__logo .logo__phone p {
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.216px;
-  color: #000000;
+  color: #1E3A60;
   margin: 0 auto;
   margin-top: -15px;
   background: #fff;
@@ -166,7 +166,7 @@ header .header__logo .logo__phone p {
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.216px;
-  color: #000000;
+  color: #1E3A60;
 }
 
 .content .content__input {
@@ -190,7 +190,7 @@ header .header__logo .logo__phone p {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.216px;
-  color: #D4DFE7;
+  color: #020113;
 }
 
 .content .content__input textarea::placeholder {
